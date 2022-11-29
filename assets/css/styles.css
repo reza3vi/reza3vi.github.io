@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	outline: none;
+}
+
+@font-face {
+	font-family: "Reem Kufi";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/reem-kufi.woff2");
+}
+
+@font-face {
+	font-family: "Reem Kufi";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/reem-kufi-bold.woff2");
+}
+
+html {
+	font-family: "Reem Kufi", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #444;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #282828;
+	color: #ebdbb2;
+	min-height: 100vh;
+	padding: 0 30px;
+}
+
+.intro {
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+.tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem;
+	font-weight: 100;
+}
+
+.links .logo {
+	width: 96px;
+}
